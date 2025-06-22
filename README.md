@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# Online-Pharmacy
+A full-stack Online Pharmacy App built with React, Node.js, Express, and MongoDB. Users can search medicines, place orders, upload prescriptions, and manage profiles. Includes Flipkart-style cart flow, dynamic medicine search via RxNav API, and daily health tips. Responsive and clean UI designed for a seamless healthcare ordering experience.
+>>>>>>> 36346e177249199a8f4d9522a1c4d81585cc8acf
