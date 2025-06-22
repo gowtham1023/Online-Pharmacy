@@ -14,20 +14,34 @@ An advanced React + Node.js powered full-stack application for ordering medicine
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: React, React Router, CSS3, Icons (Lucide)
-- **Backend**: Node.js, Express.js, MongoDB (Mongoose)
+- **Frontend**: React, React Router, CSS3
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB (Mongoose)
 - **AI/OCR**: RxNav API + Custom image recognition (Tesseract.js or server-side OCR)
 - **Auth**: JWT + LocalStorage
 
 
-# 🖼️ Screenshots
+#  📸 Screenshots
 
+![Login_Page](./screenshots/login.png) 
 ![Home Page](./screenshots/home.png)  
 ![Cart Page](./screenshots/cart.png)  
 ![Account Page](./screenshots/account.png)
+![HealthTips Page](./screenshots/health.png)
 
 ## 🧑‍💻 Getting Started
+## 📦 Installation
 
-1. **Clone the repo**
-   ```bash
-   git clone https://github.com/yourusername/online-medicine-ordering-system.git
+```bash
+# Clone the repository
+git clone https://github.com/your-username/online-pharmacy-app.git
+cd online-pharmacy-app
+
+# Frontend setup
+npm install
+npm start
+
+# Backend setup
+cd ../server
+npm install
+node server.js
