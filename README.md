@@ -2,7 +2,7 @@
 
 An advanced React + Node.js powered full-stack application for ordering medicines online — inspired by Flipkart's user-friendly experience. This project allows users to search medicines, upload prescriptions, place orders, and manage profiles with seamless UI and smart features.
 
-## 🚀 Features
+# 🚀 Features
 
 - 🔐 **Authentication**: Sign Up / Sign In with validation and session persistence.
 - 🛒 **Smart Cart Flow**: Multi-step cart system with address, summary, and payment options.
@@ -21,7 +21,7 @@ An advanced React + Node.js powered full-stack application for ordering medicine
 - **Auth**: JWT + LocalStorage
 
 
-#  📸 Screenshots 
+# 📸 Screenshots 
 
 🏠 Home Page
 
@@ -44,7 +44,7 @@ An advanced React + Node.js powered full-stack application for ordering medicine
 (./screenshots/Prescription.png) 
 
 
-#🚀 Installation & Setup
+# 🚀 Installation & Setup
 Follow these steps to run the project locally on your system:
 
 1. 📦 Clone the Repository
