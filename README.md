@@ -21,13 +21,22 @@ An advanced React + Node.js powered full-stack application for ordering medicine
 - **Auth**: JWT + LocalStorage
 
 
-#  📸 Screenshots
+#  📸 Screenshots 
 
-![Login_Page](./screenshots/login.png) 
-![Home Page](./screenshots/home.png)  
-![Cart Page](./screenshots/cart.png)  
-![Account Page](./screenshots/account.png)
-![HealthTips Page](./screenshots/health.png)
+![Home Page]
+(./screenshots/Home.png)  
+
+![Cart Page]
+(./screenshots/Cart.png)  
+
+![Account Page]
+(./screenshots/Account.png)  
+
+![HealthTips Page]
+(./screenshots/HealthTips.png)  
+
+![Prescription Page]
+(./screenshots/Prescription.png) 
 
 ## 🧑‍💻 Getting Started
 ## 📦 Installation
