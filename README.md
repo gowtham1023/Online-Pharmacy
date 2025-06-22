@@ -61,6 +61,7 @@ npm install
 Create a .env file inside the server directory and add your MongoDB connection string:
 
 MONGO_URI=mongodb://localhost:27017/medstore
+
 PORT=5000
 
 Then start the backend server:
