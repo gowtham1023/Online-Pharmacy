@@ -1,0 +1,57 @@
+.health-page {
+  background: linear-gradient(to right, #f0f8ff, #e6f7ff);
+  min-height: 100vh;
+  padding: 30px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.health-header {
+  text-align: center;
+  padding: 30px;
+  background: #007bff;
+  color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.health-icon {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.health-header h1 {
+  margin: 0;
+  font-size: 2.2rem;
+}
+
+.health-header p {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+.tips-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.tip-item {
+  background: #ffffff;
+  margin-bottom: 16px;
+  padding: 18px 20px;
+  font-size: 1.05rem;
+  color: #333;
+  border-left: 6px solid #007bff;
+  border-radius: 8px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+  transition: background 0.3s ease;
+}
+
+.tip-item:hover {
+  background: #eef7ff;
+}

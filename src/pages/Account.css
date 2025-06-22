@@ -1,0 +1,143 @@
+/* Base layout */
+.account-page {
+  min-height: 100vh;
+  padding: 30px 20px;
+  background: linear-gradient(to right, #eef3f9, #dbe9ff);
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header */
+.account-page h2 {
+  font-size: 32px;
+  color: #003366;
+  margin-bottom: 25px;
+  border-bottom: 3px solid #0052cc;
+  padding-bottom: 5px;
+}
+
+/* Button styles */
+.info-toggle,
+.orders-btn,
+.logout-btn {
+  padding: 12px 26px;
+  margin: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 25px;
+  background-color: #0052cc;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+  box-shadow: 0 4px 10px rgba(0, 82, 204, 0.2);
+}
+
+.info-toggle:hover,
+.orders-btn:hover,
+.logout-btn:hover {
+  background-color: #003d99;
+  transform: scale(1.03);
+}
+
+/* Account Form */
+.account-form {
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  padding: 25px;
+  width: 100%;
+  max-width: 500px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  animation: fadeIn 0.4s ease-in;
+}
+
+.account-form input {
+  padding: 12px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: border 0.3s;
+}
+
+.account-form input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.account-form button {
+  background-color: #28a745;
+  color: white;
+  font-weight: bold;
+  border-radius: 25px;
+  padding: 10px;
+  transition: background 0.3s ease;
+}
+
+.account-form button:hover {
+  background-color: #218838;
+}
+
+/* Orders Section */
+.orders-section {
+  width: 100%;
+  max-width: 800px;
+  margin-top: 30px;
+  animation: fadeIn 0.5s ease;
+}
+
+.orders-section h3 {
+  text-align: center;
+  font-size: 24px;
+  color: #003366;
+  margin-bottom: 20px;
+}
+
+/* Order Card */
+.order-card {
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 25px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+  border-left: 5px solid #007bff;
+}
+
+.order-card p,
+.order-card li,
+.order-card div {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.order-card ul {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+/* Logout button */
+.logout-btn {
+  background-color: #e60000;
+  margin-top: 30px;
+}
+
+.logout-btn:hover {
+  background-color: #cc0000;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

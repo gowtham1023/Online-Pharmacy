@@ -1,0 +1,51 @@
+.main-container {
+  padding-bottom: 80px; /* Adjust if text height increases */
+}
+
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #fff;
+  border-top: 1px solid #ddd;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+}
+
+.bottom-nav button {
+  background: none;
+  border: none;
+  font-size: 16px;         /* Increased from 14px */
+  text-align: center;
+  cursor: pointer;
+  color: #555;
+  flex-grow: 1;
+  line-height: 1.4;
+}
+
+.bottom-nav button.active {
+  color: #1976d2;
+  font-weight: bold;
+}
+.auth-container {
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  text-align: center;
+}
+.auth-container input {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 90%;
+}
+.switch-auth {
+  margin-top: 10px;
+  color: blue;
+  cursor: pointer;
+}

@@ -1,0 +1,80 @@
+.prescription-container {
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #e0f7fa, #f1f5f9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+
+.prescription-card {
+  background: #ffffff;
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.prescription-title {
+  font-size: 26px;
+  color: #1e3a8a;
+  margin-bottom: 24px;
+}
+
+.custom-file-upload {
+  display: inline-block;
+  padding: 12px 24px;
+  cursor: pointer;
+  background-color: #2563eb;
+  color: white;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.custom-file-upload:hover {
+  background-color: #1d4ed8;
+}
+
+.custom-file-upload input {
+  display: none;
+}
+
+.prescription-preview {
+  margin-top: 24px;
+}
+
+.prescription-preview img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: contain;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.submit-button-wrapper {
+  margin-top: 28px;
+}
+
+.prescription-submit-btn {
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  background-color: #10b981;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.prescription-submit-btn:disabled {
+  background-color: #9ca3af;
+  cursor: not-allowed;
+}
+
+.prescription-submit-btn:hover:enabled {
+  background-color: #059669;
+}
