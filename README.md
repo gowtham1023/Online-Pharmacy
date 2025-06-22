@@ -23,34 +23,54 @@ An advanced React + Node.js powered full-stack application for ordering medicine
 
 #  📸 Screenshots 
 
-![Home Page]
+Home Page
+
 (./screenshots/Home.png)  
 
-![Cart Page]
+Cart
+
 (./screenshots/Cart.png)  
 
-![Account Page]
+Account Page
+
 (./screenshots/Account.png)  
 
-![HealthTips Page]
+HealthTips Page
 (./screenshots/HealthTips.png)  
 
-![Prescription Page]
+Order via Prescription Page
+
 (./screenshots/Prescription.png) 
 
-## 🧑‍💻 Getting Started
-## 📦 Installation
 
-```bash
-# Clone the repository
-git clone https://github.com/your-username/online-pharmacy-app.git
-cd online-pharmacy-app
+🚀 Installation & Setup
+Follow these steps to run the project locally on your system:
 
-# Frontend setup
+1. 📦 Clone the Repository
+
+git clone https://github.com/your-username/Online-Pharmacy.git
+cd Online-Pharmacy
+
+2. 📁 Set Up the Server (Backend)
+
+cd server
+npm install
+
+Create a .env file inside the server directory and add your MongoDB connection string:
+MONGO_URI=mongodb://localhost:27017/medstore
+PORT=5000
+Then start the backend server:
+
+node server.js
+
+3. 💻 Set Up the Frontend 
+
+cd ..
 npm install
 npm start
+The frontend will run on http://localhost:3000 and the backend on http://localhost:5000.
 
-# Backend setup
-cd ../server
-npm install
-node server.js
+✅ Prerequisites
+Node.js (v14+ recommended)
+
+MongoDB (running locally or on cloud)
