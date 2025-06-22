@@ -25,23 +25,23 @@ An advanced React + Node.js powered full-stack application for ordering medicine
 
 🏠 Home Page
 
-(./screenshots/Home.png)  
+(/screenshots/Home.png)  
 
 🛒 Cart
 
-(./screenshots/Cart.png)  
+(/screenshots/Cart.png)  
 
 👤 Account Page
 
-(./screenshots/Account.png)  
+(/screenshots/Account.png)  
 
 🩺 HealthTips Page
 
-(./screenshots/HealthTips.png)  
+(/screenshots/HealthTips.png)  
 
 📄  Order via Prescription Page
 
-(./screenshots/Prescription.png) 
+(/screenshots/Prescription.png) 
 
 
 # 🚀 Installation & Setup
