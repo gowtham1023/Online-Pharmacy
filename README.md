@@ -44,7 +44,7 @@ An advanced React + Node.js powered full-stack application for ordering medicine
 (./screenshots/Prescription.png) 
 
 
-🚀 Installation & Setup
+#🚀 Installation & Setup
 Follow these steps to run the project locally on your system:
 
 1. 📦 Clone the Repository
@@ -55,11 +55,14 @@ cd Online-Pharmacy
 2. 📁 Set Up the Server (Backend)
 
 cd server
+
 npm install
 
 Create a .env file inside the server directory and add your MongoDB connection string:
+
 MONGO_URI=mongodb://localhost:27017/medstore
 PORT=5000
+
 Then start the backend server:
 
 node server.js
@@ -67,8 +70,11 @@ node server.js
 3. 💻 Set Up the Frontend 
 
 cd ..
+
 npm install
+
 npm start
+
 The frontend will run on http://localhost:3000 and the backend on http://localhost:5000.
 
 ✅ Prerequisites
